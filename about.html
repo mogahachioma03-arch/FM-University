@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM University of Science and Art</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="course.html">COURSE</a></li>
+                       <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <!---- about us content ---->
+
+    <section class="about-us">
+        <div class="about-col">
+            <h1>We are the World's largest university</h1>
+            <p>FM University of Science and Art (FMUSA) is an emerging center of excellence dedicated to advancing knowledge, creativity, and innovation at the intersection of science, technology, and the arts. Founded with a vision to bridge the gap between scientific inquiry and artistic expression, FM University seeks to nurture well-rounded graduates who are critical thinkers, problem solvers, and global citizens.
+
+At FMUSA, we believe that education is a transformative force capable of shaping individuals and societies. Our programs are designed to promote interdisciplinary learning, research, and community engagement, ensuring that every student develops both technical competence and creative insight.
+
+The university offers a dynamic learning environment supported by modern facilities, experienced faculty, and a strong commitment to academic integrity and innovation. Through a blend of rigorous academic study, research opportunities, and real-world experience, FMUSA empowers students to become leaders in their field whether in science, engineering, technology, fine arts, or the humanities.</p>
+<a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+</div>
+<div class="about-col">
+    <img src="./images/contact22.jpg">
+</div>
+    </section>
+
+   
+
+     <!----footer---->
+
+     <section class="footer">
+  <h4>About Us</h4>
+  <p>FM University of Science and Art is a place of learning, creativity, and innovation.<br>
+  We are dedicated to providing quality education that blends scientific knowledge with artistic expression.<br>
+  Our goal is to nurture students who think critically, explore boldly, and contribute positively to society.<br>
+  At FM University, we believe that education should inspire curiosity, creativity, and a lifelong love for learning.</p>
+
+  <div class="icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+
+  <p>Made with <i class="fa-regular fa-heart"></i> by soft Tutorials</p>
+</section>
+
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="o";
+        }
+         function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FM University of Science and Art</title>
+    <link rel="stylesheet" href="university.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="course.html">COURSE</a></li>
+                       <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2025</h1>
+
+    </section>
+    <!----- blog page content----->
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/blog 1.jpg">
+                <img src="./images/lechu.jpeg">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>At FM University of Science and Art, we are committed to making quality education accessible to learners everywhere. Our certification and online programs are designed to provide flexible learning opportunities for students who wish to advance their skills, gain professional qualifications, or explore new areas of interest all from the comfort of their home.</p>
+                <br>
+                <p>Each program combines expert instruction with practical, hands-on learning to ensure that every student not only earns a certificate but also develops real-world competence. Whether you’re preparing for a new career, enhancing your current one, or pursuing personal growth, our online learning platform allows you to study anytime, anywhere at your own pace.</p>
+                <br>
+                <p>All our courses are taught by experienced instructors and aligned with international academic standards, ensuring that your FM University certificate is both credible and respected globally. Join our growing community of learners and take the next step toward your future because education should fit your life, not the other way around.</p>
+            
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button typa="submit" class="hero-btn red">POST COMMENT</button>
+                </form>
+            </div>
+            
+            </div>
+            <div class="blog-right">
+                <h3> Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>35</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Nursing</span>
+                    <span>39</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>commerce</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+     <!----footer---->
+
+     <section class="footer">
+  <h4>About Us</h4>
+  <p>FM University of Science and Art is a place of learning, creativity, and innovation.<br>
+  We are dedicated to providing quality education that blends scientific knowledge with artistic expression.<br>
+  Our goal is to nurture students who think critically, explore boldly, and contribute positively to society.<br>
+  At FM University, we believe that education should inspire curiosity, creativity, and a lifelong love for learning.</p>
+
+  <div class="icons">
+     <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+
+  <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+</section>
+
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="o";
+        }
+         function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
